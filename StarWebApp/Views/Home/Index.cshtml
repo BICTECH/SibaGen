@@ -1,0 +1,523 @@
+﻿<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com -->
+<!--  Last Published: Fri Feb 17 2017 18:26:02 GMT+0000 (UTC)  -->
+<html data-wf-page="589a16a41c4e926c434741de" data-wf-site="58197652a4bfa69a4deda4cc">
+<head>
+    <meta charset="utf-8">
+    <title>Star Assurance E-Insurance | Buy, Renew &amp; Claim insurance policies online</title>
+    <meta content="Star Assurance E-Insurance | Buy, Renew &amp; Claim insurance policies online" property="og:title">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Webflow" name="generator">
+    <link href="~/Content/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/css/star-webapp.webflow.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Roboto:300,regular,500,700"]
+      }
+    });
+    </script>
+    <script src="~/Scripts/js/modernizr.js" type="text/javascript"></script>
+    <link href="~/Content/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="~/Content/images/fav-1.png" rel="apple-touch-icon">
+</head>
+<body>
+    <div class="pre-loader">
+        <img class="load-star" data-ix="logo-animate" sizes="100vw" src="~/Content/images/star-portal.png" srcset="~/Content/images/star-portal-p-500x226.png 500w, ~/Content/images/star-portal.png 597w" width="298.5">
+    </div>
+    <div class="personal-modal">
+        <img class="personal-accident-modal-close" data-ix="pa-modal-close" src="~/Content/images/580a98f2d2d6f3fd57652c1c_remove.svg">
+        <div class="modal-form-wrapper">
+            <h3 class="get-quote-form-header">Fill the form below to get a Personal Accident Insurance quote</h3>
+            <div class="w-form">
+                <form data-name="Email Form 2" id="email-form-2" name="email-form-2">
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-6">
+                            <label class="login-form-label" for="Contact-Number">Contact Number</label>
+                            <input class="form-field w-input" data-name="Contact Number" id="Contact-Number" maxlength="256" name="Contact-Number" placeholder="Enter your mobile number" required="required" type="text">
+                        </div>
+                        <div class="form-column-right w-col w-col-6">
+                            <label class="login-form-label" for="Email">Email Address</label>
+                            <input class="form-field w-input" data-name="Email" id="Email" maxlength="256" name="Email" placeholder="Enter your email" type="email">
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-6">
+                            <label class="login-form-label" for="Cover-Type">Cover Type</label>
+                            <select class="form-field w-select" data-name="Cover Type" id="Cover-Type" name="Cover-Type">
+                                <option value="">Select one...</option>
+                                <option value="Comprehensive">Comprehensive</option>
+                                <option value="Third Party">Third Party</option>
+                            </select>
+                        </div>
+                        <div class="form-column-right w-col w-col-6">
+                            <label class="login-form-label" for="name-9">Currency</label>
+                            <select class="form-field w-select" data-name="Cover Type 2" id="Cover-Type-2" name="Cover-Type-2">
+                                <option value="">Select one...</option>
+                                <option value="GHS">GHS</option>
+                                <option value="USD">USD</option>
+                                <option value="GBR">GBR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Start Date</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="w-col w-col-4">
+                            <label class="login-form-label" for="name-9">End Date</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="form-column-right w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Vehicle Value</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Number of Seats</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Vehicle Usage</label>
+                            <select class="form-field w-select" data-name="Year Of Make 2" id="Year-of-Make-2" name="Year-of-Make-2" required="required">
+                                <option value="">Select one...</option>
+                                <option value="Commercial">Commercial</option>
+                                <option value="Private">Private</option>
+                                <option value="Public Transport">Public Transport</option>
+                            </select>
+                        </div>
+                        <div class="form-column-right w-col w-col-4">
+                            <label class="login-form-label" for="Year-of-Make">Select Make Year</label>
+                            <select class="form-field w-select" data-name="Year of Make" id="Year-of-Make" name="Year-of-Make" required="required">
+                                <option value="">Select one...</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input class="submit-button w-button" data-wait="Please wait..." type="submit" value="Submit FOR QUOTE">
+                </form>
+                <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="travel-modal">
+        <img class="personal-accident-modal-close" data-ix="travel-modalclose" src="~/Content/images/580a98f2d2d6f3fd57652c1c_remove.svg">
+        <div class="modal-form-wrapper">
+            <h3 class="get-quote-form-header">Fill the form below to get a Travel Insurance quote</h3>
+            <div class="w-form">
+                <form data-name="Email Form 2" id="email-form-2" name="email-form-2">
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-6">
+                            <label class="login-form-label" for="Contact-Number-3">Contact Number</label>
+                            <input class="form-field w-input" data-name="Contact Number 3" id="Contact-Number-3" maxlength="256" name="Contact-Number-3" placeholder="Enter your mobile number" required="required" type="text">
+                        </div>
+                        <div class="form-column-right w-col w-col-6">
+                            <label class="login-form-label" for="Email-3">Email Address</label>
+                            <input class="form-field w-input" data-name="Email 3" id="Email-3" maxlength="256" name="Email-3" placeholder="Enter your email" type="email">
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-6">
+                            <label class="login-form-label" for="Cover-Type-5">Cover Type</label>
+                            <select class="form-field w-select" data-name="Cover Type 5" id="Cover-Type-5" name="Cover-Type-5">
+                                <option value="">Select one...</option>
+                                <option value="Comprehensive">Comprehensive</option>
+                                <option value="Third Party">Third Party</option>
+                            </select>
+                        </div>
+                        <div class="form-column-right w-col w-col-6">
+                            <label class="login-form-label" for="Cover-Type-6">Currency</label>
+                            <select class="form-field w-select" data-name="Cover Type 6" id="Cover-Type-6" name="Cover-Type-6">
+                                <option value="">Select one...</option>
+                                <option value="GHS">GHS</option>
+                                <option value="USD">USD</option>
+                                <option value="GBR">GBR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Start Date</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="w-col w-col-4">
+                            <label class="login-form-label" for="name-9">End Date</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="form-column-right w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Vehicle Value</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Number of Seats</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="w-col w-col-4">
+                            <label class="login-form-label" for="Year-of-Make-5">Vehicle Usage</label>
+                            <select class="form-field w-select" data-name="Year Of Make 5" id="Year-of-Make-5" name="Year-of-Make-5" required="required">
+                                <option value="">Select one...</option>
+                                <option value="Commercial">Commercial</option>
+                                <option value="Private">Private</option>
+                                <option value="Public Transport">Public Transport</option>
+                            </select>
+                        </div>
+                        <div class="form-column-right w-col w-col-4">
+                            <label class="login-form-label" for="Year-of-Make-6">Select Make Year</label>
+                            <select class="form-field w-select" data-name="Year Of Make 6" id="Year-of-Make-6" name="Year-of-Make-6" required="required">
+                                <option value="">Select one...</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input class="submit-button w-button" data-wait="Please wait..." type="submit" value="Submit FOR QUOTE">
+                </form>
+                <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="homeowners-modal">
+        <img class="personal-accident-modal-close" data-ix="homeowners-modal-close" src="~/Content/images/580a98f2d2d6f3fd57652c1c_remove.svg">
+        <div class="modal-form-wrapper">
+            <h3 class="get-quote-form-header">Fill the form below to get a Homeowners Insurance quote</h3>
+            <div class="w-form">
+                <form data-name="Email Form 2" id="email-form-2" name="email-form-2">
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-6">
+                            <label class="login-form-label" for="Contact-Number-4">Contact Number</label>
+                            <input class="form-field w-input" data-name="Contact Number 4" id="Contact-Number-4" maxlength="256" name="Contact-Number-4" placeholder="Enter your mobile number" required="required" type="text">
+                        </div>
+                        <div class="form-column-right w-col w-col-6">
+                            <label class="login-form-label" for="Email-4">Email Address</label>
+                            <input class="form-field w-input" data-name="Email 4" id="Email-4" maxlength="256" name="Email-4" placeholder="Enter your email" type="email">
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-6">
+                            <label class="login-form-label" for="Cover-Type-7">Cover Type</label>
+                            <select class="form-field w-select" data-name="Cover Type 7" id="Cover-Type-7" name="Cover-Type-7">
+                                <option value="">Select one...</option>
+                                <option value="Comprehensive">Comprehensive</option>
+                                <option value="Third Party">Third Party</option>
+                            </select>
+                        </div>
+                        <div class="form-column-right w-col w-col-6">
+                            <label class="login-form-label" for="Cover-Type-8">Currency</label>
+                            <select class="form-field w-select" data-name="Cover Type 8" id="Cover-Type-8" name="Cover-Type-8">
+                                <option value="">Select one...</option>
+                                <option value="GHS">GHS</option>
+                                <option value="USD">USD</option>
+                                <option value="GBR">GBR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Start Date</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="w-col w-col-4">
+                            <label class="login-form-label" for="name-9">End Date</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="form-column-right w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Vehicle Value</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Number of Seats</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="w-col w-col-4">
+                            <label class="login-form-label" for="Year-of-Make-7">Vehicle Usage</label>
+                            <select class="form-field w-select" data-name="Year Of Make 7" id="Year-of-Make-7" name="Year-of-Make-7" required="required">
+                                <option value="">Select one...</option>
+                                <option value="Commercial">Commercial</option>
+                                <option value="Private">Private</option>
+                                <option value="Public Transport">Public Transport</option>
+                            </select>
+                        </div>
+                        <div class="form-column-right w-col w-col-4">
+                            <label class="login-form-label" for="Year-of-Make-8">Select Make Year</label>
+                            <select class="form-field w-select" data-name="Year Of Make 8" id="Year-of-Make-8" name="Year-of-Make-8" required="required">
+                                <option value="">Select one...</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input class="submit-button w-button" data-wait="Please wait..." type="submit" value="Submit FOR QUOTE">
+                </form>
+                <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="motor-modal">
+        <img class="personal-accident-modal-close" data-ix="motor-modal-close" src="~/Content/~/Content/images/580a98f2d2d6f3fd57652c1c_remove.svg">
+        <div class="modal-form-wrapper">
+            <h3 class="get-quote-form-header">Fill the form below to get a Motor Insurance quote</h3>
+            <div class="w-form">
+                <form data-name="Email Form 2" id="email-form-2" name="email-form-2">
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-6">
+                            <label class="login-form-label" for="Contact-Number-2">Contact Number</label>
+                            <input class="form-field w-input" data-name="Contact Number 2" id="Contact-Number-2" maxlength="256" name="Contact-Number-2" placeholder="Enter your mobile number" required="required" type="text">
+                        </div>
+                        <div class="form-column-right w-col w-col-6">
+                            <label class="login-form-label" for="Email-2">Email Address</label>
+                            <input class="form-field w-input" data-name="Email 2" id="Email-2" maxlength="256" name="Email-2" placeholder="Enter your email" type="email">
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-6">
+                            <label class="login-form-label" for="Cover-Type-3">Cover Type</label>
+                            <select class="form-field w-select" data-name="Cover Type 3" id="Cover-Type-3" name="Cover-Type-3">
+                                <option value="">Select one...</option>
+                                <option value="Comprehensive">Comprehensive</option>
+                                <option value="Third Party">Third Party</option>
+                            </select>
+                        </div>
+                        <div class="form-column-right w-col w-col-6">
+                            <label class="login-form-label" for="Cover-Type-4">Currency</label>
+                            <select class="form-field w-select" data-name="Cover Type 4" id="Cover-Type-4" name="Cover-Type-4">
+                                <option value="">Select one...</option>
+                                <option value="GHS">GHS</option>
+                                <option value="USD">USD</option>
+                                <option value="GBR">GBR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Start Date</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="w-col w-col-4">
+                            <label class="login-form-label" for="name-9">End Date</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="form-column-right w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Vehicle Value</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                    </div>
+                    <div class="w-row">
+                        <div class="form-column-left w-col w-col-4">
+                            <label class="login-form-label" for="name-9">Number of Seats</label>
+                            <input class="form-field w-input" data-name="Name 9" id="name-9" maxlength="256" name="name" placeholder="Enter your name" type="text">
+                        </div>
+                        <div class="w-col w-col-4">
+                            <label class="login-form-label" for="Year-of-Make-3">Vehicle Usage</label>
+                            <select class="form-field w-select" data-name="Year Of Make 3" id="Year-of-Make-3" name="Year-of-Make-3" required="required">
+                                <option value="">Select one...</option>
+                                <option value="Commercial">Commercial</option>
+                                <option value="Private">Private</option>
+                                <option value="Public Transport">Public Transport</option>
+                            </select>
+                        </div>
+                        <div class="form-column-right w-col w-col-4">
+                            <label class="login-form-label" for="Year-of-Make-4">Select Make Year</label>
+                            <select class="form-field w-select" data-name="Year Of Make 4" id="Year-of-Make-4" name="Year-of-Make-4" required="required">
+                                <option value="">Select one...</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input class="submit-button w-button" data-wait="Please wait..." type="submit" value="Submit FOR QUOTE">
+                </form>
+                <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="e-insurance-body w-clearfix">
+        <div class="products-main">
+            <div class="intro-wrapper">
+                <h1 class="landing-header">Buy, Renew and <br>Make Insurance Claims online</h1>
+            </div>
+            <div class="benny-slide-overlay">
+                <div class="motor-home-trigger w-clearfix" data-ix="motorctareveal">
+                    <a class="motor-home-icon w-inline-block" data-ix="motorctareveal" href="#">
+                        <img sizes="(max-width: 479px) 80.10000610351562px, (max-width: 767px) 106.79999542236328px, (max-width: 991px) 14vw, 11vw" src="~/Content/~/Content/images/motor.png" srcset="~/Content/images/motor-p-500x501.png 500w, ~/Content/images/motor-p-800x800.png 800w, ~/Content/images/motor-p-1080x1080.png 1080w, ~/Content/images/motor.png 1226w">
+                        <h3 class="policy-name">Motor</h3>
+                    </a>
+                    <div class="motor-home-modal">
+                        <a class="benny-buttons w-button" href="#">Get Quote</a><a class="benny-buttons w-button" href="#">Explore Policy</a><a class="benny-buttons w-button" href="#">Renew Policy</a>
+                    </div>
+                    <div class="motor-trigger-close-button" data-ix="home-modal-closing"></div>
+                </div>
+                <div class="travel-home-trigger w-clearfix">
+                    <a class="travel-home-icon w-inline-block" href="#">
+                        <img sizes="(max-width: 479px) 33vw, (max-width: 991px) 106.79998779296875px, 11vw" src="~/Content/~/Content/images/travel.png" srcset="~/Content/images/travel-p-500x501.png 500w, ~/Content/~/Content/images/travel-p-800x800.png 800w, ~/Content/~/Content/images/travel-p-1080x1080.png 1080w, ~/Content/images/travel.png 1226w">
+                        <h3 class="policy-name">Travel</h3>
+                    </a>
+                    <div class="travel-home-modal">
+                        <a class="benny-buttons w-button" href="#">Get Quote</a><a class="benny-buttons w-button" href="#">Explore Policy</a><a class="benny-buttons w-button" href="#">Renew Policy</a>
+                    </div>
+                    <div class="traveltrigger-close-button"></div>
+                </div>
+                <div class="pa-home-trigger w-clearfix">
+                    <a class="personal-accident-home-icon w-inline-block" href="#">
+                        <img sizes="(max-width: 479px) 33vw, (max-width: 767px) 22vw, (max-width: 991px) 14vw, 11vw" src="~/Content/images/personal-accidents.png" srcset="~/Content/images/personal-accidents-p-500x501.png 500w, ~/Content/images/personal-accidents-p-800x801.png 800w, ~/Content/images/personal-accidents-p-1080x1081.png 1080w, ~/Content/images/personal-accidents.png 1225w">
+                        <h3 class="policy-name">Accidents</h3>
+                    </a>
+                    <div class="pa-home-modal">
+                        <a class="benny-buttons w-button" href="#">Get Quote</a><a class="benny-buttons w-button" href="#">Explore Policy</a><a class="benny-buttons w-button" href="#">Renew Policy</a>
+                    </div>
+                    <div class="pa-trigger-close-button"></div>
+                </div>
+                <div class="fire-home-trigger w-clearfix">
+                    <a class="fire-home-icon w-inline-block" href="#">
+                        <img sizes="(max-width: 479px) 33vw, (max-width: 767px) 22vw, (max-width: 991px) 106.800048828125px, 11vw" src="~/Content/images/homeowners.png" srcset="~/Content/images/homeowners-p-500x501.png 500w, ~/Content/images/homeowners-p-800x800.png 800w, ~/Content/images/homeowners-p-1080x1080.png 1080w, ~/Content/images/homeowners.png 1226w">
+                        <h3 class="policy-name">Homeowners</h3>
+                    </a>
+                    <div class="fire-home-modal">
+                        <a class="benny-buttons w-button" href="#">Get Quote</a><a class="benny-buttons w-button" href="#">Explore Policy</a><a class="benny-buttons w-button" href="#">Renew Policy</a>
+                    </div>
+                    <div class="firetrigger-close-button"></div>
+                </div>
+            </div>
+            <a class="quick-help-menu w-inline-block" data-ix="quickhelp" href="#">
+                <div class="tooltip-wrapper" data-ix="tooltip">
+                    <div class="tooltippinner">
+                        <div class="tooltiptext">233 30 2245906</div>
+                        <div class="arrowtooltip"></div>
+                    </div>
+                </div>
+                <div class="rotator2"></div>
+                <div class="rotator"></div>
+                <div class="quick-menu-inner-div">
+                    <div class="quickhelp-icon"></div>
+                    <div class="quickhelp-icon2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="fixed-login-cta w-hidden-main" data-ix="reveallogin">
+            <h3 class="login-start-text">Login or register to start</h3>
+        </div>
+        <div class="login-form-wrapper">
+            <div class="login">
+                <div class="login-sub-text">
+                    Buy, renew and make claims on <a href="#" class="on-the-go-link">the go!</a>
+                </div>
+                <div class="sign-tab w-tabs" data-duration-in="300" data-duration-out="100">
+                    <div class="login-tabs-menu w-tab-menu">
+                        <a class="login-tab-link w--current w-inline-block w-tab-link" data-w-tab="Login Tab">
+                            <div>Log in</div>
+                        </a>
+                        <a class="login-tab-link w-inline-block w-tab-link" data-w-tab="Registration Tab">
+                            <div>Register</div>
+                        </a>
+                    </div>
+                    <div class="w-tab-content">
+                        <div class="w--tab-active w-tab-pane" data-w-tab="Login Tab">
+                            <div class="form-wrapper w-form" id="Login-Form">
+                                <form data-name="Email Form" id="email-form" name="email-form">
+                                    <p class="login-paragraph">You can log in with your mobile number or email address</p>
+                                    <label class="login-form-label" for="Login-Username">Username</label>
+                                    <input class="form-field w-input" data-name="Login Username" id="Login-Username" maxlength="256" name="Login-Username" placeholder="Enter your username" required="required" type="text">
+                                    <label class="login-form-label" for="Login-Password">Password</label>
+                                    <input class="form-field w-input" data-name="Login Password" id="Login-Password" maxlength="256" name="Login-Password" placeholder="Enter your password" required="required" type="password">
+                                    <div class="w-row">
+                                        <div class="w-col w-col-6">
+                                            <div class="w-checkbox w-clearfix">
+                                                <input class="w-checkbox-input" data-name="Checkbox" id="checkbox" name="checkbox" type="checkbox">
+                                                <label class="login-form-label w-form-label" for="checkbox">Remember me</label>
+                                            </div>
+                                        </div>
+                                        <div class="w-clearfix w-col w-col-6">
+                                            <a class="forget-password-link" href="#">Forgot password?</a>
+                                        </div>
+                                    </div><a class="login-button" href="Dashboard">LOG IN</a>
+                                </form>
+                                <div class="w-form-done">
+                                    <div>Thank you! Your submission has been received!</div>
+                                </div>
+                                <div class="w-form-fail">
+                                    <div>Oops! Something went wrong while submitting the form</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login-tab-pane w-tab-pane" data-w-tab="Registration Tab">
+                            <div class="form-wrapper w-form" id="Register-Form">
+                                <form data-name="Email Form" id="email-form" name="email-form">
+                                    <p class="login-paragraph">Kindly Register to get started</p>
+                                    <label class="login-form-label" for="Registration-Username">Name</label>
+                                    <input class="form-field w-input" data-name="Registration Username" id="Registration-Username" maxlength="256" name="Registration-Username" placeholder="Enter your username" required="required" type="text">
+                                    <div class="w-row">
+                                        <div class="form-column-left w-col w-col-6 w-col-small-6">
+                                            <label class="login-form-label" for="Email-address">Email</label>
+                                            <input class="form-field w-input" data-name="Email address" id="Email-address" maxlength="256" name="Email-address" placeholder="Enter your address" required="required" type="email">
+                                        </div>
+                                        <div class="form-column-right w-col w-col-6 w-col-small-6">
+                                            <label class="login-form-label" for="Confirm-email-address">Retype Email</label>
+                                            <input class="form-field w-input" data-name="Confirm email address" id="Confirm-email-address" maxlength="256" name="Confirm-email-address" placeholder="Retype your email address to confirm" required="required" type="email">
+                                        </div>
+                                    </div>
+                                    <div class="w-row">
+                                        <div class="form-column-left w-col w-col-6 w-col-small-6">
+                                            <label class="login-form-label" for="Mobile-Number">Mobile No.</label>
+                                            <input class="form-field w-input" data-name="Mobile Number" id="Mobile-Number" maxlength="256" name="Mobile-Number" placeholder="Enter your mobile no" required="required" type="text">
+                                        </div>
+                                        <div class="form-column-right w-col w-col-6 w-col-small-6">
+                                            <label class="login-form-label" for="Date-of-Birth">Date of Birth</label>
+                                            <input class="form-field w-input" data-name="Date of Birth" id="Date-of-Birth" maxlength="256" name="Date-of-Birth" placeholder="Enter your date of birth" required="required" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="w-clearfix w-radio">
+                                        <input class="w-radio-input" data-name="Accept terms and conditions" id="Accept terms and conditions" name="Accept-terms-and-conditions" required="required" type="radio" value="Accept terms and conditions">
+                                        <label class="login-form-label w-form-label" for="Accept terms and conditions">I hereby acknowledge and accept the terms and conditions</label>
+                                    </div>
+                                    <input class="login-button w-button" data-wait="Please wait..." type="submit" value="REGISTER">
+                                </form>
+                                <div class="w-form-done">
+                                    <div>Thank you! Your submission has been received!</div>
+                                </div>
+                                <div class="w-form-fail">
+                                    <div>Oops! Something went wrong while submitting the form</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/js/webflow.js" type="text/javascript"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
